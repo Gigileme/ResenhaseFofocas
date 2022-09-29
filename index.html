@@ -12,12 +12,12 @@
   <!--aula 27/09/2022--> 
   <!--Inicio do Menu Responsivo --> 
   <header id="header"
-  <a id="LOGO" href="index,html"><img src="./img/senai_small.jpg"  alt="Logo do Senai"></a>
-  <nav id="Nav">
-      <button aria-label="Abrir menu" id="btn - mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-        <span id="hamburguer"></span>
-      </button>
-      <ul id="menu" role="menu">
+   <a id="Logo" href="index.html"><img src="./img/seleção/testes.png"  alt="Logo do Senai"></a>
+    <nav id="Nav">
+       <button aria-label="Abrir menu" id="btn - mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+         <span id="hamburguer"></span>
+       </button>
+       <ul id="menu" role="menu">
         <li><a class="LinkMenu" href="index.html">home</a></li>
         <li><a class="LinkMenu" href="resenha.html">resenha</a></li>
         <li><a class="LinkMenu" href="contato.html">contatos</a></li>
@@ -25,9 +25,56 @@
          
 
       </ul>
-  </nav>
+    </nav>
 
   </header>
   <!--Fim do menu responsivo -->
+
+  <!--Início do Carousel Página Principal-->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel - inner">
+       <div class="carousel-item active" data-bs-interval="500">
+        <img src="./img/seleção/charmed.jpg"
+        class="d-block w100"
+        alt="..."
+       />
+    </div>
+  <div class="carousel-item" data-bs-interval="1000">
+      <img src="./img/seleção/dracula.jpg"
+      class="d-block w100"
+       alt="..."
+       />
+    </div>
+    <div class="carousel-item">
+      <img src="./img/seleção/daisy.jpg"
+      class="d-block w100"
+       alt="..."
+       />
+    </div>
+  </div>
+    <button
+      class="carousel-control-prev"
+      data-bs-target="#carouselExampleInterval"
+      type="button"
+      data-bs-slide="prev"
+    >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+    <button
+      class="carousel-control-next"
+      data-bs-target="#carouselExampleInterval"
+      type="button"
+      data-bs-slide="next"
+    >
+    <span class="carousel-control-next-icon" aria-hidden ="true"></span>
+    <span class="visually-hidden">Proximo</span>
+    </button>
+
+</div>
+  <!--Fim do carousel da página principal-->
 </body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
